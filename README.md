@@ -6,6 +6,8 @@ This is a static review copy of the current Scholz Electrical homepage with smal
 
 GitHub Actions builds and deploys the mockup to GitHub Pages on every push to `main`. The source homepage remains in `homepage/`; `scripts/build.py` places a copy at the site root and adjusts local asset paths. The generated `_site/` directory is ignored by Git.
 
+Live review URL: https://lilmonstersam.github.io/scholz-electrical-homepage/
+
 Run `python3 scripts/build.py` to build locally. The output is static HTML, CSS, JavaScript and images. Search indexing is disabled for the review site.
 
 ## CRO preview

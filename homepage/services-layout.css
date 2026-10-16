@@ -1,0 +1,29 @@
+/* The original Avada tabs remain as a fallback until services-layout.js runs. */
+.fusion-builder-row-5 .services-tabbed-browsing[hidden]{display:none!important}
+.fusion-builder-row-5 .scholz-services-explorer{width:100%;display:grid;grid-template-columns:220px minmax(0,1fr);gap:18px;margin:22px 0 70px;align-items:start;font-family:Arial,Helvetica,sans-serif}
+.scholz-services-explorer *{box-sizing:border-box}
+.scholz-services-explorer__tabs{display:grid;gap:7px;padding:9px;background:#fff;border:1px solid #d4dfce;border-radius:10px;box-shadow:0 6px 22px rgba(35,65,29,.05)}
+.scholz-services-explorer__tab{display:flex;align-items:center;gap:13px;width:100%;min-height:62px;padding:12px 14px;border:0;border-left:4px solid transparent;border-radius:6px;background:transparent;color:#364235;font:700 15px/1.25 Arial,Helvetica,sans-serif;text-align:left;cursor:pointer;transition:background .2s ease,color .2s ease,border-color .2s ease}
+.scholz-services-explorer__tab:hover{background:#f2f6ee}
+.scholz-services-explorer__tab[aria-selected="true"]{border-left-color:#6fb440;background:#edf5e7;color:#285820}
+.scholz-services-explorer__tab:focus-visible{outline:3px solid #6fb440;outline-offset:2px}
+.scholz-services-explorer__number{flex:none;min-width:23px;color:#739466;font-size:11px;font-weight:800;letter-spacing:.05em}
+.scholz-services-explorer__tab[aria-selected="true"] .scholz-services-explorer__number{color:#3d822c}
+.scholz-services-explorer__content{min-width:0;background:#fff;border:1px solid #d4dfce;border-radius:10px;box-shadow:0 6px 22px rgba(35,65,29,.05)}
+.scholz-services-explorer__panel{padding:36px 40px 38px}
+.scholz-services-explorer__panel[hidden]{display:none!important}
+.scholz-services-explorer__panel h3{margin:0 0 13px!important;color:#2d4929;font-size:clamp(22px,2.4vw,29px)!important;font-weight:800;line-height:1.18!important;letter-spacing:-.02em}
+.scholz-services-explorer__panel>p:first-of-type{max-width:760px;margin:0 0 22px;color:#444;font-size:16px;line-height:1.6}
+.scholz-services-explorer__panel .custom-icon-list{display:grid;gap:10px;margin:0 0 27px;padding:18px 22px 18px 42px;background:#f2f7ed;border-left:4px solid #6fb440;border-radius:0 7px 7px 0;color:#354333;line-height:1.45}
+.scholz-services-explorer__panel .custom-icon-list li{margin:0;padding:0}
+.scholz-services-explorer__panel .two-col-bullet-list,.scholz-services-explorer__panel ul:not(.custom-icon-list){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 22px;max-width:none;margin:0 0 22px;padding:0;list-style:none}
+.scholz-services-explorer__panel .two-col-bullet-list li,.scholz-services-explorer__panel ul:not(.custom-icon-list) li{width:auto!important;margin:0!important;padding:0!important;float:none!important;line-height:1.35}
+.scholz-services-explorer__panel .two-col-bullet-list li::before,.scholz-services-explorer__panel ul:not(.custom-icon-list) li::before{display:none!important}
+.scholz-services-explorer__panel .two-col-bullet-list a,.scholz-services-explorer__panel ul:not(.custom-icon-list) a{display:block;min-height:42px;padding:10px 12px;border:1px solid #e0e8db;border-radius:5px;background:#fbfcf9;color:#2f6330;text-decoration:none;transition:background .2s ease,border-color .2s ease}
+.scholz-services-explorer__panel .two-col-bullet-list a:hover,.scholz-services-explorer__panel .two-col-bullet-list a:focus-visible,.scholz-services-explorer__panel ul:not(.custom-icon-list) a:hover,.scholz-services-explorer__panel ul:not(.custom-icon-list) a:focus-visible{border-color:#6fb440;background:#f1f8ea;color:#285820}
+.scholz-services-explorer__panel>p:last-child{margin:21px 0 0;padding-top:20px;border-top:1px solid #e2e9df}
+.scholz-services-explorer__panel .service-cta-btn{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:150px;height:auto;min-height:45px;margin:0;padding:10px 22px;border-radius:5px;background:#6fb440;color:#fff!important;font-size:14px;font-weight:700;text-decoration:none}
+.scholz-services-explorer__panel .service-cta-btn:hover,.scholz-services-explorer__panel .service-cta-btn:focus-visible{background:#588f32;color:#fff!important}
+@media(max-width:850px){.fusion-builder-row-5 .scholz-services-explorer{grid-template-columns:1fr}.scholz-services-explorer__tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:thin;overscroll-behavior-x:contain}.scholz-services-explorer__tab{flex:0 0 auto;width:auto;min-height:48px;padding:10px 13px;border-left:0;border-bottom:3px solid transparent;white-space:nowrap}.scholz-services-explorer__tab[aria-selected="true"]{border-left-color:transparent;border-bottom-color:#6fb440}.scholz-services-explorer__number{display:none}}
+@media(max-width:600px){.fusion-builder-row-5 .scholz-services-explorer{gap:12px;margin:18px 0 45px}.scholz-services-explorer__panel{padding:24px 20px 26px}.scholz-services-explorer__panel .two-col-bullet-list,.scholz-services-explorer__panel ul:not(.custom-icon-list){grid-template-columns:1fr;gap:7px}.scholz-services-explorer__panel .custom-icon-list{padding:15px 18px 15px 32px}.scholz-services-explorer__panel>p:first-of-type{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.scholz-services-explorer__tab,.scholz-services-explorer__panel a{transition:none}}
